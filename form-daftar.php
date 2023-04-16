@@ -38,7 +38,7 @@
                 <input type="text" class="form-control" id="inputAddress" name="alamat" placeholder="Enter your home address.." required>
             </div>
 
-            <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
+            <label for="jenis_kelamin" class="form-label">Gender</label>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="jenis_kelamin" value="laki-laki" id="maleRadio" checked>
                 <label class="form-check-label" for="maleRadio">
@@ -52,7 +52,7 @@
                 </label>
             </div>
 
-            <label for="agama">Agama</label>
+            <label for="agama">Religion</label>
             <select class="mb-3 form-select" name="agama">
                 <option selected>Atheis</option>
                 <option>Islam</option>
