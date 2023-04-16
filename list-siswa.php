@@ -58,7 +58,7 @@
                     echo "<td>".$siswa['sekolah_asal']."</td>";
 
                     echo "<td>";
-                    echo "<a class='btn btn-primary text-decoration-none' href='form-edit.php?id=".$siswa['id']."'>Edit</a>";
+                    echo "<a class='btn btn-primary text-decoration-none mx-1' href='form-edit.php?id=".$siswa['id']."'>Edit</a>";
                     echo "<a class='btn btn-danger text-decoration-none' href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
                     echo "</td>";
 
