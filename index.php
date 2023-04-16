@@ -66,6 +66,11 @@
         </div>
     </div>
 
+    <div class="text-center position-absolute start-50 top-50 translate-middle bg-dark p-5 rounded" style="--bs-bg-opacity: .5;">
+        <h1 class="text-light mb-5">What are you waiting for?</h1>
+        <a class="btn btn-outline-light py-2 px-4" href="form-daftar.php"><h3 class="fw-light">Register now!</h3></a>
+    </div>
+
     <?php if(isset($_GET['status'])): 
         if($_GET['status'] == 'sukses'){
             echo '<div class="alert alert-success alert-dismissible fade show position-absolute start-50 translate-middle" style="top: 15%" role="alert">
