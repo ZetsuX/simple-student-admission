@@ -28,7 +28,8 @@
     </nav>
 
     <div class="container w-75 mt-4 py-3">
-        <h2 class="mb-5 text-center">Registered Students List</h2>
+        <h2 class="mb-4 text-center">Registered Students List</h2>
+        <a class='mb-4 btn btn-success text-decoration-none' href='form-daftar.php'>Register New Student</a>
         <table class="table border-success">
             <thead>
                 <tr>
@@ -57,7 +58,7 @@
                     echo "<td>".$siswa['sekolah_asal']."</td>";
 
                     echo "<td>";
-                    echo "<a class='btn btn-primary text-decoration-none' href='form-edit.php?id=".$siswa['id']."'>Edit</a> ";
+                    echo "<a class='btn btn-primary text-decoration-none' href='form-edit.php?id=".$siswa['id']."'>Edit</a>";
                     echo "<a class='btn btn-danger text-decoration-none' href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
                     echo "</td>";
 
